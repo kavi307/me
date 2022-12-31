@@ -1,0 +1,278 @@
+*{
+	margin:0;
+	padding:0;
+	box-sizing:border-box;
+}
+.body{
+	font-family:'josedin sans',sans-serif;
+}
+
+.b-img{
+	background-image:url("img-1.jpg");
+	height:100vh;
+	width:100%;
+	position:relative;
+	background-image:fixed;
+	background-size:cover;
+}
+.overlay{
+	position:absolute;
+	background-color:#0000001c;
+	width:100%;
+	height:100%;
+	text-align:center;
+	
+}
+.kavi{
+	color:#7ac9ed;
+}
+.logoo{
+	position:absolute;
+}
+.logo img{
+	width:25%;
+}
+.navi a{
+	text-decoration:none;
+}
+.navabar{
+	top:30px;
+	display:flex;
+}
+.navi{
+	position:absolute;
+	font-weight: 900;
+    font-size: 24px;
+	margin-left:37%;
+	justify-content:space-between;
+	font-family: sans-serif;
+	
+}
+.me{
+	font-size:20px;
+	color:#ebd534;
+}
+.conntent{
+	position:absolute;
+	top:40%;
+	width:100%
+}
+.conntent h2{
+	color:white;
+	font-size:50px;
+}
+.about{
+	color:balck;
+	position:relative;
+}
+.about::after{
+	width:78px;
+	height:1px;
+	position:absolute;
+	border:1px solid #eaa1f0;
+	background-color:#eaa1f0;
+	content:"";
+	bottom:0;
+	left:0;
+	top:53px;
+	
+}
+.about{
+	margin-top: 35px;
+    margin-bottom: 30px;
+}
+.card-img-top{
+	width:200px;
+	height:200px;
+
+}
+.skill{
+	color:#ab208d;
+	margin-top: 35px;
+    margin-bottom: 30px;
+}
+.skill::after{
+	width:78px;
+	height:1px;
+	position:absolute;
+	border:1px solid #eaa1f0;
+	background-color:#eaa1f0;
+	content:"";
+	left:47%;
+}
+.work{
+	color:#b52b65;
+	position:relative;
+	margin-top: 35px;
+    margin-bottom: 30px;
+}
+.work::after{
+	width:100px;
+	height:3px;
+	position:absolute;
+	border:1px solid #242022;
+	background-color:#242022;
+	content:"";
+	bottom:0;
+	left:0;
+	top:53px;
+	
+}
+.img-top{
+	width:100%;
+	height:250px;
+}
+.b-img2{
+	background-image:url("screenshot.png");
+	height:100vh;
+	width:100%;
+	position:relative;
+	background-image:fixed;
+	background-size:cover;
+}
+.contact{
+	position:absolute;
+	background-color:#0000001c;
+	width:100%;
+	height:100%;
+	text-align:center;
+	
+	
+}
+.cardd:hover {
+	border:5px solid #89f5f1!important;
+	transition:0.5s;
+}
+.col-8 iframe{
+	width:100%;
+	height:auto;
+}
+.address h2{
+	color:#63e3e6;
+}
+button{
+	width:250px;
+	height:50px;
+	text-align:left;
+	position:relative;
+	border:none;
+	outline:none;
+	border-radius:10px;
+	box-shadow:0 3px 3px #aaa;
+	margin-top:40px;
+	font-size:20px;
+	font-weight:bold;
+	color:#333;
+	padding-left:20px;
+	box-sizing:border-box;
+	
+}
+button::after{
+	content:"";
+	position:absolute;
+	background-color:salmon;
+	width:30px;
+	margin-right:155px;
+	bottom:0;
+	top:0;
+	right:0;
+	transform:skew(-30deg);
+}
+button::before{
+	content:"Download CV";
+	line-height:50px;
+	text-align:center;
+	border-radius:0 10px 10px 0;
+	position:absolute;
+	background-color:salmon;
+	width:170px;
+	bottom:0;
+	top:0;
+	right:0
+	
+}
+.border{
+	position:relative;
+	
+}
+.border::before{
+	content:"";
+	position:absolute;
+	left:0;
+	bottom:0;
+	width:0%;
+	height:0%;
+	border-bottom:3px solid red transparent;
+	box-sizing:border-box;
+	border-left:3px solid red transparent;
+	transition:all .8s ease;
+}
+.border::after{
+	content:"";
+	position:absolute;
+	right:0;
+	top:0;
+	width:0%;
+	height:0%;
+	border-top:3px solid red transparent;
+	box-sizing:border-box;
+	border-right:3px solid red transparent;
+	transition:all .8s ease;
+}
+.card:hover .border::after{
+	border-color:red;
+	width:100%;
+	height:100%;
+	border-top:5px solid red;
+	border-right:5px solid red;
+}
+.card:hover .border::before{
+	border-color:red;
+	width:100%;
+	height:100%;
+	border-bottom:5px solid red;
+	border-left:5px solid red;
+}
+.icons i{
+	color:#49b5e7;
+	font-size:20px;
+	height:40px;
+	width:40px;
+	text-align:center;
+	border-radius:50%;
+	border:2px solid #ebf7fc;
+	background-color:#ebf7fc;
+	padding: 7px 9px 7px 9px;
+	
+}
+.icooo:hover i{
+	background-color:#49b5e7;
+		border:2px solid #49b5e7;
+	color:white;
+	transition:1s;
+}
+.icooo i{
+	margin: 0 3px;
+    border-radius: 50px;
+    width: 36px;
+    height: 36px;
+    background: rgba(73, 181, 231, 0.8);
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    transition: ease-in-out 0.3s;
+    color: #fff;
+	
+}
+.icooo{
+	position:absolute;
+	bottom:17px;
+	left:0;
+	display:flex;
+    justify-content:center;
+    right: 0;
+	
+}
+.icooo a{
+	text-decoration:none;
+}
